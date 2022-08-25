@@ -76,8 +76,9 @@ Course: **Mechatronics**, Institute for Electrical Engineering in Medicine, Univ
 
 | Title   |      Student      | Year   | University | |
 |----------|-------------|------:|------:|------:|
+| *Balancing a Two Degrees of Freedom Inverted Pendulum with a Robotic Arm* |  Kyrylo Sovailo | 2022 | RWTH Aachen University | (supervised jointly with Shiming He) |
 | *Learning Policies on a Rotatory Pendulum Using Approximate Gradient Descent with Bayesian Optimization* |  Reis Baltaoğlu | 2021 | RWTH Aachen University | |
-| *Event Localization with Deep-Learning-based Time Series Classification for Process Monitoring in Robotics* | Jonas Reiher | 2021 | RWTH Aachen University | (done at KUKA) |
+| *Event Localization with Deep-Learning-based Time Series Classification for Process Monitoring in Robotics* | Jonas Reiher | 2021 | RWTH Aachen University | (project done at KUKA) |
 
 ### Research projects
 

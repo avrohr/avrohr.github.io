@@ -19,7 +19,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 I am a PhD student at RWTH Aachen University and my research is at the intersection between machine learning and robust control.
-The main topic of my dissertation is learning probabilistic robust controllers (a.k.a. policies), that that are provably robust against uncertainty inherent in learning from data. I am also actively interested in Bayesian optimization in the context of reinforcement learning and controller tuning.
+The main topic of my dissertation is learning probabilistic robust controllers (a.k.a. policies), that are provably robust against uncertainty inherent in learning from data. I am also actively interested in Bayesian optimization in the context of reinforcement learning and controller tuning.
 
 The first part of my PhD took place the [Max Planck Institute for Intelligent Systems](https://is.mpg.de) where I was a member of the [Intelligent Control Systems Group](https://ics.is.mpg.de/) lead by [Prof. Sebastian Trimpe](https://www.dsme.rwth-aachen.de/cms/DSME/Das-Institut/Team-CMS-Artikel-/~jlolt/Prof-Sebastian-Trimpe).
 In 2020 our research group moved to the RWTH Aachen University where we are in the process of building the new [Institute for Data Science in Mechanical Engineering](https://www.dsme.rwth-aachen.de).

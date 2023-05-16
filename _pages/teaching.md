@@ -63,13 +63,16 @@ Course: **Mechatronics**, Institute for Electrical Engineering in Medicine, Univ
 
 ### Master thesis
 
-| Title                                                     | Student      | Year  | University              |     |
-|:---------------------------------------------------------|:------------|:-----|:-----------------------|:---|
-| *An approach to instance segmentation and pose estimation for automated dismantling of lithium-ion batteries for high-quality recycling* | Anna-Maria Meer | 2022 | RWTH Aachen University | (project done at Institut für Unternehmenskybernetik) |
-| *Real-Time Task and Motion Planning for Dual-Arm Robotic in a Bin-Picking Application* | Ilyes Zakaria Toumi  | 2022 | RWTH Aachen University | (project done at Bosch Center for AI) |
-| *Multi-Task Active Learning for Computer Vision* | Nik Dorndorf  | 2022 | RWTH Aachen University | (project done at École Polytechnique Fédérale de Lausanne) |
-| *Learning and Forgetting in Time-Varying Bayesian Optimization* | Paul Brunzema | 2021 | RWTH Aachen University   |     |
-| *Approximate Gradient Descent with Bayesian Optimization* | Sarah Müller | 2020  | University of Stuttgart |     |
+| Title                                                                                                                                    | Student             | Year | University              |                                                       |
+|--:---------------------------------------------------------------------------------------------------------------------------------------|--:------------------|--:---|--:----------------------|--:----------------------------------------------------|
+| *Data Transfer in Robust Direct Data-Driven Control*                                                                                     | Dmitrii Likhachev   | 2023 | RWTH Aachen University  |                                                       |
+| *Benchmarking Learning-Based Control and Reinforcement Learning*                                                                         | Tsung Yuan Tseng    | 2023 | RWTH Aachen University  | (project at TUM))                                     |
+| *An approach to instance segmentation and pose estimation for automated dismantling of lithium-ion batteries for high-quality recycling* | Anna-Maria Meer     | 2022 | RWTH Aachen University  | (project at Institut für Unternehmenskybernetik)      |
+| *Real-Time Task and Motion Planning for Dual-Arm Robotic in a Bin-Picking Application*                                                   | Ilyes Zakaria Toumi | 2022 | RWTH Aachen University  | (project at Bosch Center for AI)                      |
+| *Multi-Task Active Learning for Computer Vision*                                                                                         | Nik Dorndorf        | 2022 | RWTH Aachen University  | (project at École Polytechnique Fédérale de Lausanne) |
+| *Learning and Forgetting in Time-Varying Bayesian Optimization*                                                                          | Paul Brunzema       | 2021 | RWTH Aachen University  |                                                       |
+| *Approximate Gradient Descent with Bayesian Optimization*                                                                                | Sarah Müller        | 2020 | University of Stuttgart |                                                       |
+
 
 
 ### Bachelor thesis
@@ -78,7 +81,7 @@ Course: **Mechatronics**, Institute for Electrical Engineering in Medicine, Univ
 |----------|-------------|------:|------:|------:|
 | *Balancing a Two Degrees of Freedom Inverted Pendulum with a Robotic Arm* |  Kyrylo Sovailo | 2022 | RWTH Aachen University | (supervised jointly with Shiming He) |
 | *Learning Policies on a Rotatory Pendulum Using Approximate Gradient Descent with Bayesian Optimization* |  Reis Baltaoğlu | 2021 | RWTH Aachen University | |
-| *Event Localization with Deep-Learning-based Time Series Classification for Process Monitoring in Robotics* | Jonas Reiher | 2021 | RWTH Aachen University | (project done at KUKA) |
+| *Event Localization with Deep-Learning-based Time Series Classification for Process Monitoring in Robotics* | Jonas Reiher | 2021 | RWTH Aachen University | (project at KUKA) |
 
 ### Research projects
 

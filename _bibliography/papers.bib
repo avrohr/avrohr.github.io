@@ -119,17 +119,17 @@
   abstract  = {We consider the problem of sequentially optimizing a time-varying objective function using time-varying Bayesian optimization (TVBO). Here, the key challenge is to cope with old data. Current approaches to TVBO require prior knowledge of a constant rate of change. However, the rate of change is usually neither known nor constant. We propose an event-triggered algorithm, ET-GP-UCB, that detects changes in the objective function online. The event-trigger is based on probabilistic uniform error bounds used in Gaussian process regression. The trigger automatically detects when significant change in the objective functions occurs. The algorithm then adapts to the temporal change by resetting the accumulated dataset. We provide regret bounds for ET-GP-UCB and show in numerical experiments that it is competitive with state-of-the-art algorithms even though it requires no knowledge about the temporal changes. Further, ET-GP-UCB outperforms these competitive baselines if the rate of change is misspecified and we demonstrate that it is readily applicable to various settings without tuning hyperparameters.},
   abbr      = {preprint},
   arxiv     = {2208.10790},
-  selected    = {true},
+  selected  = {true},
 }
 
 
 @article{brunzema2022event,
-  author    = {Brunzema, Paul and {von Rohr}, Alexander and Solowjow, Friedrich and Trimpe, Sebastian},
-  title     = {Event-Triggered Time-Varying Bayesian Optimization},
+  author    = {{von Rohr}, Alexander and Likhachev, Dmitrii and Trimpe, Sebastian},
+  title     = {Experience Transfer for Robust Direct Data-Driven Control}, 
   journal   = {arXiv},
   year      = {2023},
   abstract  = {Learning-based control uses data to design efficient controllers for specific systems. When multiple systems are involved, experience transfer usually focuses on data availability and controller performance yet neglects robustness to variations between systems. In contrast, this letter explores experience transfer from a robustness perspective. We leverage the transfer to design controllers that are robust not only to the uncertainty regarding an individual agent's model but also to the choice of agent in a fleet. Experience transfer enables the design of safe and robust controllers that work out of the box for all systems in a heterogeneous fleet. Our approach combines scenario optimization and recent formulations for direct data-driven control without the need to estimate a model of the system or determine uncertainty bounds for its parameters. We demonstrate the benefits of our data-driven robustification method through a numerical case study and obtain learned controllers that generalize well from a small number of open-loop trajectories in a quadcopter simulation.},
   abbr      = {preprint},
   arxiv     = {2306.169730},
-  selected    = {true},
+  selected  = {true},
 }

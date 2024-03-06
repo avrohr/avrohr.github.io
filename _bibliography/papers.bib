@@ -122,7 +122,6 @@
   selected  = {true},
 }
 
-
 @article{vonrohr2023experience,
   author    = {{von Rohr}, Alexander and Likhachev, Dmitrii and Trimpe, Sebastian},
   title     = {Experience Transfer for Robust Direct Data-Driven Control}, 
@@ -131,5 +130,19 @@
   abstract  = {Learning-based control uses data to design efficient controllers for specific systems. When multiple systems are involved, experience transfer usually focuses on data availability and controller performance yet neglects robustness to variations between systems. In contrast, this letter explores experience transfer from a robustness perspective. We leverage the transfer to design controllers that are robust not only to the uncertainty regarding an individual agent's model but also to the choice of agent in a fleet. Experience transfer enables the design of safe and robust controllers that work out of the box for all systems in a heterogeneous fleet. Our approach combines scenario optimization and recent formulations for direct data-driven control without the need to estimate a model of the system or determine uncertainty bounds for its parameters. We demonstrate the benefits of our data-driven robustification method through a numerical case study and obtain learned controllers that generalize well from a small number of open-loop trajectories in a quadcopter simulation.},
   abbr      = {preprint},
   arxiv     = {2306.16973},
+  selected  = {true},
+}
+
+@article{rath2024discovering,
+  title     = {Discovering Model Structure of Dynamical Systems with Combinatorial Bayesian Optimization},
+  author    = {Lucas Rath and Alexander von Rohr and Andreas Schultze and Sebastian Trimpe and Burkhard Corves},
+  journal   = {Transactions on Machine Learning Research},
+  issn      = {2835-8856},
+  year      = {2024},
+  abstract  = {Deciding on a model structure is a fundamental problem in machine learning. In this paper we consider the problem of building a data-based model for dynamical systems from a library of discrete components. In addition to optimizing performance, we consider crash and inequality constraints that arise from additional requirements, such as real-time capability and model complexity. We address this task of model structure selection with a focus on dynamical systems and propose to search over potential model structures efficiently using a constrained combinatorial Bayesian Optimization (BO) algorithm. We propose expressive surrogate models suited for combinatorial domains and an acquisition function that can handle inequality and crash constraints. We provide simulated benchmark problems within the domain of equation discovery of nonlinear dynamical systems. Our method outperforms the state-of-the-art in constrained combinatorial optimization of black-box functions and has a favorable computational overhead compared to other BO methods. As a real-world application example, we apply our method to optimize the configuration of an electric vehicle's digital twin while ensuring its real-time capability for the use in one of the world's largest driving simulators.},
+  html      = {https://openreview.net/forum?id=2iOOvQmJBK},
+  abbr      = {TMLR},
+  code      = {https://github.com/lucasrm25/Model-Structure-Selection-CBOSS},
+  bibtex_show = {true}, 
   selected  = {true},
 }

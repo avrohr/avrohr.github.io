@@ -16,3 +16,9 @@
     panelbear('config', { site: '{{site.panelbear_analytics}}' });
   </script>
 {%- endif -%}
+<!-- Cronitor RUM -->
+<script async src="https://rum.cronitor.io/script.js"></script>
+<script>
+    window.cronitor = window.cronitor || function() { (window.cronitor.q = window.cronitor.q || []).push(arguments); };
+    cronitor('config', { clientKey: '7787a5cdb2630f07df03d92f6bdaed4f' });
+</script>

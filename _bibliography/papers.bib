@@ -116,7 +116,7 @@
   title     = {Event-Triggered Time-Varying Bayesian Optimization},
   journal   = {arXiv},
   year      = {2022},
-  abstract  = {We consider the problem of sequentially optimizing a time-varying objective function using time-varying Bayesian optimization (TVBO). Here, the key challenge is to cope with old data. Current approaches to TVBO require prior knowledge of a constant rate of change. However, the rate of change is usually neither known nor constant. We propose an event-triggered algorithm, ET-GP-UCB, that detects changes in the objective function online. The event-trigger is based on probabilistic uniform error bounds used in Gaussian process regression. The trigger automatically detects when significant change in the objective functions occurs. The algorithm then adapts to the temporal change by resetting the accumulated dataset. We provide regret bounds for ET-GP-UCB and show in numerical experiments that it is competitive with state-of-the-art algorithms even though it requires no knowledge about the temporal changes. Further, ET-GP-UCB outperforms these competitive baselines if the rate of change is misspecified and we demonstrate that it is readily applicable to various settings without tuning hyperparameters.},
+  abstract  = {We consider the problem of sequentially optimizing a time-varying objective function using time-varying Bayesian optimization (TVBO). Here, the key challenge is to cope with old data. Current approaches to TVBO require prior knowledge of a constant rate of change. However, the rate of change is usually neither known nor constant. We propose an event-triggered algorithm, ET-GP-UCB, that detects changes in the objective function online. The event-trigger is based on probabilistic uniform error bounds used in Gaussian process regression. The trigger automatically detects when significant change in the objective functions occurs. The algorithm then adapts to the temporal change by resetting the accumulated dataset. We provide regret bounds for ET-GP-UCB and show in numerical experiments that it is competitive with state-of-the-art algorithms even though it requires no knowledge about the temporal changes. Further, ET-GP-UCB outperforms these competitive baselines if the rate of change is misspecified, and we demonstrate that it is readily applicable to various settings without tuning hyperparameters.},
   abbr      = {preprint},
   arxiv     = {2208.10790},
 }
@@ -143,4 +143,19 @@
   code      = {https://github.com/lucasrm25/Model-Structure-Selection-CBOSS},
   bibtex_show = {true},
   selected  = {true},
+}
+
+@article{vonrohr2024local,
+  title = {Local Bayesian optimization for controller tuning with crash constraints},
+  author = {{von Rohr}, Alexander and Stenger, David and Scheurenberg, Dominik and Trimpe, Sebastian},
+  journal = {at - Automatisierungstechnik},
+  doi = {10.1515/auto-2023-0181},
+  year = {2024},
+  abstract = {Controller tuning is crucial for closed-loop performance but often involves manual adjustments. Although Bayesian optimization (BO) has been established as a data-efficient method for automated tuning, applying it to large and high-dimensional search spaces remains challenging. We extend a recently proposed local variant of BO to include crash constraints, where the controller can only be successfully evaluated in an a-priori unknown feasible region. We demonstrate the efficiency of the proposed method through simulations and hardware experiments. Our findings showcase the potential of local BO to enhance controller performance and reduce the time and resources necessary for tuning.}
+  pages = {281--292},
+  volume = {72},
+  number = {4},
+  html = {https://www.degruyter.com/document/doi/10.1515/auto-2023-0181/html},
+  abbr = {at},
+  bibtex_show = {true},
 }

@@ -9,7 +9,7 @@ profile:
   image: me1_square.jpg
   image_cicular: true # crops the image to make it circular
   address: >
-    <p>Building N4 (0104), Room: A 2.11</p>
+    <p>Building: N4, Room: A 2.11</p>
     <p>Theresienstraße 90</p>
     <p>80333 Munich, Germany</p>
 

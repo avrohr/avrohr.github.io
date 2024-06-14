@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.dsme.rwth-aachen.de'>Institute for Data Science in Mechanical Engineering</a>, RWTH Aachen University.
+subtitle: <a href='https://www.learnsyslab.org'>Learning Systems and Robotics Lab</a>, TU Munich.
 
 profile:
   align: right

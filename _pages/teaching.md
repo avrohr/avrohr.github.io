@@ -13,13 +13,12 @@ nav_order: 5
     border-radius: 8px;
     padding: 15px;
     margin: 15px 0;
-    background-color: #f9f9f9;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .teaching-role {
     font-weight: bold;
-    color: #007acc;
+    color: var(--global-theme-color);
     font-size: 1.2em;
 }
 
@@ -86,7 +85,7 @@ nav_order: 5
 
 <div class="teaching-card">
     <div class="teaching-role">
-        <img class="teaching-icon" src="https://img.icons8.com/ios/50/000000/graduation-cap.png" alt="Student Teaching Assistant Icon" width="20" height="20">
+        <img class="teaching-icon" src="https://img.icons8.com/ios/50/000000/teacher.png" alt="Student Teaching Assistant Icon" width="20" height="20">
         Student Teaching Assistant - University of Lübeck <span class="teaching-year">(2016-2017)</span>
     </div>
     <div class="teaching-description">
@@ -163,7 +162,6 @@ nav_order: 5
     border-radius: 8px;
     padding: 15px;
     margin: 15px 0;
-    background-color: #f9f9f9;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 

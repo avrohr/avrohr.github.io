@@ -181,8 +181,11 @@ nav_order: 5
     margin-top: 25px;
 }
 </style>
+---
 
 ## Supervised Theses and Student Projects
+
+---
 
 <div class="project-section-title">Master Theses</div>
 
@@ -220,6 +223,7 @@ nav_order: 5
     <div class="project-title">Approximate Gradient Descent with Bayesian Optimization</div>
     <div class="project-details">Sarah Müller, 2020, University of Stuttgart</div>
 </div>
+---
 
 <div class="project-section-title">Bachelor Theses</div>
 
@@ -237,6 +241,7 @@ nav_order: 5
     <div class="project-title">Event Localization with Deep-Learning-based Time Series Classification for Process Monitoring in Robotics</div>
     <div class="project-details">Jonas Reiher, 2021, RWTH Aachen University (project at KUKA)</div>
 </div>
+---
 
 <div class="project-section-title">Research Projects</div>
 
@@ -269,3 +274,4 @@ nav_order: 5
     <div class="project-details">at École Polytechnique Fédérale de Lausanne (EPFL)</div>
     <div class="project-details">Nik Dorndorf, 2022, RWTH Aachen University</div>
 </div>
+---

@@ -39,7 +39,7 @@ nav_order: 5
 </style>
 
 <!-- ## Teaching -->
-
+---
 <div class="teaching-card">
     <div class="teaching-role">
         <img class="teaching-icon" src="https://img.icons8.com/ios/50/000000/teacher.png" alt="Teaching Assistant Icon" width="20" height="20">
@@ -188,7 +188,7 @@ nav_order: 5
 ---
 
 <div class="project-section-title">Master Theses</div>
-
+---
 <div class="project-card">
     <div class="project-title">Approximate Model Predictive Control using Diffusion Models for Autonomous Drone Racing</div>
     <div class="project-details">Jonathan Kelm, 2024, RWTH Aachen University</div>
@@ -226,7 +226,7 @@ nav_order: 5
 ---
 
 <div class="project-section-title">Bachelor Theses</div>
-
+---
 <div class="project-card">
     <div class="project-title">Balancing a Two Degrees of Freedom Inverted Pendulum with a Robotic Arm</div>
     <div class="project-details">Kyrylo Sovailo, 2022, RWTH Aachen University (supervised jointly with Shiming He)</div>
@@ -244,7 +244,7 @@ nav_order: 5
 ---
 
 <div class="project-section-title">Research Projects</div>
-
+---
 <div class="project-card">
     <div class="project-title">Learning Safe Value Functions with the Soft Actor-Critic Algorithm</div>
     <div class="project-details">Tsung Yuan Tseng, 2022, RWTH Aachen University</div>
@@ -254,9 +254,9 @@ nav_order: 5
     <div class="project-title">Sparse Approximate Gradient Descent with Bayesian Optimization</div>
     <div class="project-details">Ritesh Yadav, 2022, RWTH Aachen University</div>
 </div>
-
+---
 <div class="project-section-title">External Projects</div>
-
+---
 <div class="project-card">
     <div class="project-title">An approach to instance segmentation and pose estimation for automated dismantling of lithium-ion batteries for high-quality recycling</div>
     <div class="project-details">at Institut für Unternehmenskybernetik (IfU)</div>

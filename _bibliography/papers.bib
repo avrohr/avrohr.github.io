@@ -121,17 +121,6 @@
   arxiv     = {2208.10790},
 }
 
-@article{vonrohr2024robust,
-  author    = {{von Rohr}, Alexander and Likhachev, Dmitrii and Trimpe, Sebastian},
-  title     = {Robust Direct Data-Driven Control for Probabilistic Systems}, 
-  journal   = {arXiv},
-  year      = {2024},
-  abstract  = {We propose a data-driven control method for systems with aleatoric uncertainty, for example, robot fleets with variations between agents. Our method leverages shared trajectory data to increase the robustness of the designed controller and thus facilitate transfer to new variations without the need for prior parameter and uncertainty estimations. In contrast to existing work on experience transfer for performance, our approach focuses on robustness and uses data collected from multiple realizations to guarantee generalization to unseen ones. Our method is based on scenario optimization combined with recent formulations for direct data-driven control. We derive lower bounds on the amount of data required to achieve quadratic stability for probabilistic systems with aleatoric uncertainty and demonstrate the benefits of our data-driven method through a numerical example. We find that the learned controllers generalize well to high variations in the dynamics even when based on only a few short open-loop trajectories. Robust experience transfer enables the design of safe and robust controllers that work out of the box without any additional learning during deployment.},
-  abbr      = {preprint},
-  arxiv     = {2306.16973},
-  bibtex_show = {true},
-}
-
 @article{rath2024discovering,
   title     = {Discovering Model Structure of Dynamical Systems with Combinatorial Bayesian Optimization},
   author    = {Rath, Lucas and {von Rohr}, Alexander and Schultze, Andreas and Trimpe, Sebastian and Corves, Burkhard},
@@ -182,5 +171,22 @@
   abstract  = {Despite the many recent advances in reinforcement learning (RL), the question of learning policies that robustly satisfy state constraints under disturbances remains open. This paper reveals how robustness arises naturally by combining two common practices in unconstrained RL: entropy regularization and constraints penalization. Our results provide a method to learn robust policies, model-free and with standard popular algorithms. We begin by showing how entropy regularization biases the constrained RL problem towards maximizing the number of future viable actions, which is a form of robustness. Then, we relax the safety constraints via penalties to obtain an unconstrained RL problem, which we show approximates its constrained counterpart arbitrarily closely. We support our findings with illustrative examples and on popular RL benchmarks.},
   html={https://openreview.net/forum?id=zP9hpDEzPq},
   abbr      = {EWRL},
+  bibtex_show = {true},
+}
+
+@article{vonrohr2025robust,
+  author    = {{von Rohr}, Alexander and Likhachev, Dmitrii and Trimpe, Sebastian},
+  title     = {Robust Direct Data-Driven Control for Probabilistic Systems}, 
+  journal   = {Systems & Control Letters},
+  volume    = {196},
+  pages     = {106011},
+  year      = {2025},
+  issn      = {0167-6911},
+  doi       = {10.1016/j.sysconle.2024.106011},
+  abstract  = {We propose a data-driven control method for systems with aleatoric uncertainty, such as robot fleets with variations between agents. Our method leverages shared trajectory data to increase the robustness of the designed controller and thus facilitate transfer to new variations without the need for prior parameter and uncertainty estimation. In contrast to existing work on experience transfer for performance, our approach focuses on robustness and uses data collected from multiple realizations to guarantee generalization to unseen ones. Our method is based on scenario optimization combined with recent formulations for direct data-driven control. We derive upper bounds on the minimal amount of data required to provably achieve quadratic stability for probabilistic systems with aleatoric uncertainty and demonstrate the benefits of our data-driven method through a numerical example. We find that the learned controllers generalize well to high variations in the dynamics even when based on only a few short open-loop trajectories. Robust experience transfer enables the design of safe and robust controllers that work “out of the box” without additional learning during deployment.},
+  abbr      = {SCL},
+  arxiv     = {2306.16973},
+  html      = {https://www.sciencedirect.com/science/article/pii/S0167691124002998},
+  pdf       = {https://www.sciencedirect.com/science/article/pii/S0167691124002998/pdfft?md5=105c4f5feb9b6f985b5ac80f7b0e2d76&pid=1-s2.0-S0167691124002998-main.pdf}, 
   bibtex_show = {true},
 }

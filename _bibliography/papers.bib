@@ -111,16 +111,6 @@
   bibtex_show = {true},
 }
 
-@article{brunzema2022event,
-  author    = {Brunzema, Paul and {von Rohr}, Alexander and Solowjow, Friedrich and Trimpe, Sebastian},
-  title     = {Event-Triggered Time-Varying Bayesian Optimization},
-  journal   = {arXiv},
-  year      = {2022},
-  abstract  = {We consider the problem of sequentially optimizing a time-varying objective function using time-varying Bayesian optimization (TVBO). Here, the key challenge is to cope with old data. Current approaches to TVBO require prior knowledge of a constant rate of change. However, the rate of change is usually neither known nor constant. We propose an event-triggered algorithm, ET-GP-UCB, that detects changes in the objective function online. The event-trigger is based on probabilistic uniform error bounds used in Gaussian process regression. The trigger automatically detects when significant change in the objective functions occurs. The algorithm then adapts to the temporal change by resetting the accumulated dataset. We provide regret bounds for ET-GP-UCB and show in numerical experiments that it is competitive with state-of-the-art algorithms even though it requires no knowledge about the temporal changes. Further, ET-GP-UCB outperforms these competitive baselines if the rate of change is misspecified, and we demonstrate that it is readily applicable to various settings without tuning hyperparameters.},
-  abbr      = {preprint},
-  arxiv     = {2208.10790},
-}
-
 @article{rath2024discovering,
   title     = {Discovering Model Structure of Dynamical Systems with Combinatorial Bayesian Optimization},
   author    = {Rath, Lucas and {von Rohr}, Alexander and Schultze, Andreas and Trimpe, Sebastian and Corves, Burkhard},
@@ -132,7 +122,6 @@
   abbr      = {TMLR},
   code      = {https://github.com/lucasrm25/Model-Structure-Selection-CBOSS},
   bibtex_show = {true},
-  selected  = {true},
 }
 
 @article{vonrohr2024local,
@@ -187,6 +176,23 @@
   abbr      = {SCL},
   arxiv     = {2306.16973},
   html      = {https://www.sciencedirect.com/science/article/pii/S0167691124002998},
+  code      = {https://github.com/Data-Science-in-Mechanical-Engineering/rddc},
   pdf       = {https://www.sciencedirect.com/science/article/pii/S0167691124002998/pdfft?md5=105c4f5feb9b6f985b5ac80f7b0e2d76&pid=1-s2.0-S0167691124002998-main.pdf}, 
   bibtex_show = {true},
+}
+
+@article{brunzema2025eventtriggered,
+  title     = {Event-Triggered Time-Varying Bayesian Optimization},
+  author    = {Paul Brunzema and Alexander von Rohr and Friedrich Solowjow and Sebastian Trimpe},
+  journal   = {Transactions on Machine Learning Research},
+  issn      = {2835-8856},
+  year      = {2025},
+  abstract  = {We consider the problem of sequentially optimizing a time-varying objective function using time-varying Bayesian optimization (TVBO). Current approaches to TVBO require prior knowledge of a constant rate of change to cope with stale data arising from time variations. However, in practice, the rate of change is usually unknown. We propose an event-triggered algorithm, ET-GP-UCB, that treats the optimization problem as static until it detects changes in the objective function and then resets the dataset. This allows the algorithm to adapt online to realized temporal changes without the need for exact prior knowledge. The event trigger is based on probabilistic uniform error bounds used in Gaussian process regression. We derive regret bounds for adaptive resets without exact prior knowledge of the temporal changes and show in numerical experiments that ET-GP-UCB outperforms competing GP-UCB algorithms on both synthetic and real-world data. The results demonstrate that ET-GP-UCB is readily applicable without extensive hyperparameter tuning.},
+  abbr      = {TMLR},
+  arxiv     = {2208.10790},
+  html      = {https://openreview.net/forum?id=WEYMCLu8u7},
+  code      = {https://github.com/brunzema/et-bo},
+  pdf       = {https://openreview.net/pdf?id=WEYMCLu8u7}, 
+  bibtex_show = {true},
+  selected  = {true}, 
 }

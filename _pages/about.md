@@ -6,7 +6,7 @@ subtitle: <a href='https://www.learnsyslab.org'>Learning Systems and Robotics La
 
 profile:
   align: right
-  image: me1_square.jpg
+  image: me_new_square_small.png
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Building: N4, Room: A 2.11</p>
@@ -18,9 +18,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a postdoctoral researcher at the [Technical University of Munich](https://www.tum.de/) affiliated with the [Learning Systems and Robotics Lab](https://www.learnsyslab.org). My research focuses on Bayesian optimization for robot learning, as well as risk-aware and robust reinforcement learning.
+I am a postdoctoral researcher at the [Technical University of Munich](https://www.tum.de/) affiliated with the [Learning Systems and Robotics Lab](https://www.learnsyslab.org). My research is on embodied AI, specifically Bayesian optimization for robot learning, as well as risk-aware and robust reinforcement learning.
 
-During the first part of my PhD, I conducted research at the [Max Planck Institute for Intelligent Systems](https://is.mpg.de) as a member of the [Intelligent Control Systems Group](https://ics.is.mpg.de/), led by [Prof. Sebastian Trimpe](https://www.dsme.rwth-aachen.de/cms/DSME/Das-Institut/Team-CMS-Artikel-/~jlolt/Prof-Sebastian-Trimpe). Later, I relocated with my research group to [RWTH Aachen University](https://www.dsme.rwth-aachen.de), where we established the new [Institute for Data Science in Mechanical Engineering](https://www.dsme.rwth-aachen.de). Throughout this period, I was associated with the International Max Planck Research School for Intelligent Systems ([IMPRS-IS](https://imprs.is.mpg.de/)), and my PhD was supported by [IAV](https://www.iav.com).
+I conducted my PhD research at the [Max Planck Institute for Intelligent Systems](https://is.mpg.de) as a member of the [Intelligent Control Systems Group](https://ics.is.mpg.de/) and [Institute for Data Science in Mechanical Engineering](https://www.dsme.rwth-aachen.de) at the [RWTH Aachen University](https://www.dsme.rwth-aachen.de), both led by [Prof. Sebastian Trimpe](https://www.dsme.rwth-aachen.de/cms/DSME/Das-Institut/Team-CMS-Artikel-/~jlolt/Prof-Sebastian-Trimpe). I was an associated scholar with the International Max Planck Research School for Intelligent Systems ([IMPRS-IS](https://imprs.is.mpg.de/)), and my PhD was supported by [IAV](https://www.iav.com).
 
-Before joining the Max Planck Institute for my master's thesis and later pursuing my PhD in 2018, I studied **Computer Science** at the University of Lübeck. I earned my Bachelor's degree in **Electrical Engineering** from BHT Berlin in 2013. Between these degrees, I worked as a full-time **Software Engineer** in Hamburg.
+Before joining the Max Planck Institute, I studied **Computer Science** at the University of Lübeck. I earned my Bachelor's degree in **Electrical Engineering** from BHT Berlin. Between these degrees, I worked as a full-time **Software Engineer** in Hamburg.
 

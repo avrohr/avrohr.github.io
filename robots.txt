@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://thisisalex.de/sitemap.xml
+Sitemap: https://avrohr.com/sitemap.xml

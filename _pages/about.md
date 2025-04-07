@@ -25,3 +25,4 @@ I conducted my PhD research at the [Max Planck Institute for Intelligent Systems
 
 Before joining the Max Planck Institute, I studied **Computer Science** at the University of Lübeck. I earned my Bachelor's degree in **Electrical Engineering** from BHT Berlin. Between these degrees, I worked as a full-time **Software Engineer** in Hamburg.
 
+“For a list of my research papers, see my [Publications page](https://avrohr.com/publications/). More information about my teaching activities is available [here](https://avrohr.com/teaching/).

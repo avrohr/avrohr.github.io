@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description:
+description: Research publications by Alexander von Rohr.
 nav: true
 nav_order: 2
 ---

@@ -224,3 +224,20 @@
   bibtex_show = {true},
   selected  = {true}, 
 }
+
+@phdthesis{rohr2024probabilistic,
+      author       = {Von Rohr, Alexander},
+      othercontributors = {Trimpe, Johann Sebastian and Hoos, Holger Hendrik},
+      title        = {{P}robabilistic optimization for the control of dynamical
+                      systems},
+      school       = {RWTH Aachen University},
+      publisher    = {RWTH Aachen University},
+      reportid     = {RWTH-2025-02257},
+      year         = {2024},
+      abstract     = {The control of dynamical systems is a central aspect of automation technology, integral to modern society. However,  designing resource-efficient controllers specific to each system remains challenging and costly. Machine learning can automate this process, but learning-based control requires methods that are both data-efficient and robust. This thesis addresses the central question: "How can we efficiently learn to control dynamical systems from data?" by framing learning-based control as a probabilistic optimization problem. We introduce novel methods for decision-making under uncertainty that enable efficient data collection and propose learning-based control algorithms for probabilistic models with formal guarantees. First, we tackle the controller tuning problem, which traditionally demands extensive experimentation. We develop a Bayesian optimization method for data-efficient improvement of candidate controllers by reducing uncertainty in gradient estimates. This method is validated through synthetic problems, simulated experiments, and hardware controller tuning. Second, we propose three probabilistically robust control methods that account for uncertainties arising from data-driven model learning. These include a controller synthesis method with probabilistic stability guarantees, leveraging the posterior distribution of learned models; an approach addressing aleatoric uncertainty in systems with inherent variations, deriving upper bounds on the minimum data required to achieve quadratic stability; and an event-triggered learning algorithm for uncertain and time-varying dynamics, which detects system changes and triggers re-learning. In summary, this thesis addresses the challenge of efficiently learning to control dynamical systems from data using probabilistic optimization. By leveraging data-efficient probabilistic machine learning techniques, we improve control performance while minimizing resource consumption. The proposed methods are validated through simulations and experiments.},
+      abbr         = {PhD thesis},
+      doi          = {10.18154/RWTH-2025-02257},
+      url          = {https://publications.rwth-aachen.de/record/1006124},
+      pdf          = {https://publications.rwth-aachen.de/record/1006124/files/1006124.pdf},
+      bibtex_show  = {true},
+}

@@ -10,7 +10,7 @@ profile:
   image_alt: Alexander von Rohr portrait photo
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Building: N4, Room: A 2.11</p>
+    <p>Building: N4, Room: N0405</p>
     <p>Theresienstraße 90</p>
     <p>80333 Munich, Germany</p>
 

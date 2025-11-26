@@ -287,5 +287,17 @@
   abstract     = {Three-dimensional rigid-body transforms, i.e. rotations and translations, are central to modern differentiable machine learning pipelines in robotics, vision, and simulation. However, numerically robust and mathematically correct implementations, particularly on SO(3), are error-prone due to issues such as axis conventions, normalizations, composition consistency and subtle errors that only appear in edge cases. SciPy’s spatial.transform module is a rigorously tested Python implementation, but historically only supported NumPy, limiting adoption in GPU-accelerated and autodiff-based workflows. We present a complete overhaul of SciPy’s spatial.transform functionality that makes it compatible with any array library implementing the Python array API, including JAX, PyTorch, and CuPy. The revised implementation preserves the established SciPy interface while enabling GPU/TPU execution, JIT compilation, vectorized batching, and differentiation via native autodiff of the chosen backend. We demonstrate how this foundation supports differentiable scientific computing through two case studies: (i) scalability of 3D transforms and rotations and (ii) a JAX drone simulation that leverages SciPy’s Rotation for accurate integration of rotational dynamics. Our contributions have been merged into SciPy main and will ship in the next release, providing a framework-agnostic, production-grade basis for 3D spatial math in differentiable systems and ML.},
   html         = {https://openreview.net/forum?id=eaN5y07hbw},
   abbr         = {EurIPS WS},
+  arxiv        = {2511.18157},
+  bibtex_show  = {true},
+}
+
+@article{stenger2025local,
+  author      = {Stenger, David and Lindicke, Armin and {von Rohr}, Alexander and Trimpe, Sebastian},
+  title       = {Local Entropy Search over Descent Sequences for Bayesian Optimization},
+  journal     = {arXiv},
+  year        = {2025},
+  abstract    = {Searching large and complex design spaces for a global optimum can be infeasible and unnecessary. A practical alternative is to iteratively refine the neighborhood of an initial design using local optimization methods such as gradient descent. We propose local entropy search (LES), a Bayesian optimization paradigm that explicitly targets the solutions reachable by the descent sequences of iterative optimizers. The algorithm propagates the posterior belief over the objective through the optimizer, resulting in a probability distribution over descent sequences. It then selects the next evaluation by maximizing mutual information with that distribution, using a combination of analytic entropy calculations and Monte-Carlo sampling of descent sequences. Empirical results on high-complexity synthetic objectives and benchmark problems show that LES achieves strong sample efficiency compared to existing local and global Bayesian optimization methods.},
+  abbr        = {preprint},
+  arxiv       = {2511.19241},
   bibtex_show  = {true},
 }

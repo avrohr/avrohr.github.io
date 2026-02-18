@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.learnsyslab.org'>Learning Systems and Robotics Lab</a>, TU Munich.
+subtitle: <a href='https://www.utn.de/departments/department-computer-science-artificial-intelligence/foundations-of-machine-learning/'>Foundations of Machine Learning Research Group</a>, University of Technology Nuremberg.
 
 profile:
   align: right

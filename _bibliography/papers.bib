@@ -260,7 +260,7 @@
   bibtex_show = {true},
 }
 
-@article{massiani2025viability,
+@inproceedings{massiani2025viability,
   author      = {Massiani*, Pierre-Fran{\c{c}}ois and {von Rohr*}, Alexander, and Haverbeck, Lukas and Trimpe, Sebastian},
   title       = {Viability of Future Actions: Robust Safety in Reinforcement Learning via Entropy Regularization}, 
   booktitle   = {Machine Learning and Knowledge Discovery in Databases. Research Track},
@@ -302,6 +302,16 @@
   bibtex_show = {true},
 }
 
+@inproceedings{hausdorfer2026learning,
+  title     = {Learning Quadruped Locomotion from Casual Videos},
+  author    = {Hausd{\"o}rfer, Oliver and {von Rohr}, Alexander and Skubacz, Filip and Omar, Shafeef and Khadiv, Majid and Zhou, SiQi and Schoellig, Angela P.},
+  booktitle = {ICRA 2026 Workshop on Beyond Teleoperation: Learning from Diverse Human and Simulation Data},
+  year      = {2026},
+  abbr      = {ICRA WS},
+  bibtex_show = {true},
+  html      = {https://openreview.net/forum?id=iYtNKq9tQE},
+}
+
 @inproceedings{stenger2026local,
   title       = {Local Entropy Search over Descent Sequences for Bayesian Optimization},
   author      = {Stenger, David and Lindicke, Armin and {von Rohr}, Alexander and Trimpe, Sebastian},
@@ -317,11 +327,45 @@
   selected  = {true},
 }
 
+@article{che2026efficient,
+  title     = {Efficient Heteroscedastic Bayesian Optimization for Risk-Aware {AutoRL}},
+  author    = {Che, Mingxuan and Tseng, Tsung-Yuan and Eimer, Theresa and Lindauer, Marius and {von Rohr}, Alexander},
+  journal   = {Reinforcement Learning Journal},
+  volume    = {7},
+  year      = {2026},
+  abstract  = {Reinforcement learning (RL) has shown remarkable success across a wide range of complex tasks. However, RL outcomes can be highly stochastic, and both expected performance and variability often depend on hyperparameter (HP) configurations. We propose efficient and risk-averse heteroscedastic Bayesian Optimization (ERAHBO), a Bayesian optimization method that models both the mean and variance of learning outcomes as functions of the HP configurations. ERAHBO aims to identify HP configurations that achieve high average return while reducing variability across training runs, and it improves the sample efficiency of the HP optimization via adaptive re-sampling rather than a fixed budget per HP. Empirical evaluations across diverse RL algorithms and environments demonstrate that ERAHBO generally outperforms both risk-neutral and risk-averse baselines, delivering improved sample efficiency for risk-averse returns.},
+  note      = {Presented at the Reinforcement Learning Conference (RLC 2026)},
+  abbr      = {RLC},
+  bibtex_show = {true},
+  arxiv     = {2607.26680},
+  pdf       = {https://rlj.cs.umass.edu/2026/papers/Paper150.pdf},
+  html      = {https://rlj.cs.umass.edu/2026/papers/Paper150.html},
+}
 
-@inproceedings{che2026efficient,
-  title={Efficient Heteroscedastic Bayesian Optimization for Risk-Aware Auto{RL}},
-  author={Mingxuan Che, Tsung Yuan Tseng, Theresa Eimer, Marius Lindauer, Alexander {von Rohr}},
-  booktitle={Reinforcement Learning Conference},
-  year={2026},
-  url={https://openreview.net/forum?id=KoPdlSw5hf}
+@inproceedings{hausdorfer2026synergistic,
+  title     = {Synergistic Action and Style Priors for Learning Legged Locomotion},
+  author    = {Hausd{\"o}rfer, Oliver and {von Rohr}, Alexander and Lefort, {\'E}ric and Schoellig, Angela P.},
+  booktitle = {2026 IEEE-RAS 25th International Conference on Humanoid Robots (Humanoids)},
+  year      = {2026},
+  abstract  = {Complex reward tuning remains a problem for learning locomotion behaviors, particularly at the torque level. Demonstration-guided imitation rewards and action-space priors mitigate this burden, but each introduces its own tuning effort or assumes demonstration data that is costly to obtain. We propose to leverage a simple action space prior in combination with a single imitation reward term to learn locomotion, both derived from a small state--action demonstration set. We find that the synergy between the priors is complementary: the action prior restricts exploration to the demonstrated action manifold, while the imitation term supplies the temporal structure required for imitation. This synergy yields faster convergence, higher task reward, and reduced sensitivity to the introduced hyperparameters than either prior in isolation. Addressing the question of the required demonstrations, we further show that a large language model (LLM) can design the underlying feedforward gait controllers through a simulation-in-the-loop procedure, removing the need for motion capture or manual trajectory design. The resulting policies transfer to a Unitree Go2 for both position control and direct \SI{500}{\hertz} torque control, demonstrating an end-to-end pipeline from LLM output to low-level robot control.},
+  abbr      = {Humanoids},
+  bibtex_show = {true},
+  arxiv     = {2410.03246},
+  html      = {https://sites.google.com/view/latent-action-priors},
+  url       = {https://arxiv.org/abs/2410.03246}
+}
+
+@article{stenger2026decade,
+  title     = {A Decade of {Bayesian} Optimization for Controller Tuning and Robot Learning: Tutorial, Review, and Future Prospects},
+  author    = {Stenger, David and Brunzema, Paul and Menn, Johanna and {von Rohr}, Alexander and Schoellig, Angela P. and Trimpe, Sebastian},
+  journal   = {arXiv preprint arXiv:2609.09403},
+  year      = {2026},
+  abstract  = {In the past decade, Bayesian optimization (BO) has emerged as a powerful and adaptable framework for automatic controller tuning and robot learning. This article offers a comprehensive overview of the state-of-the-art in BO, designed to support both researchers and practitioners in understanding recent advancements, practical applications, and future research directions. We begin by adopting a practitioner's perspective, illustrating how to effectively set up BO through a representative controller tuning example. We position BO within the broader context of learning paradigms, ranging from deep reinforcement learning to data-driven control, and highlight scenarios where BO is most advantageous. Next, we discuss the diverse range of BO methods that have been developed to tackle complex problems and specific applications. This article provides a unified perspective on the current landscape of BO, emphasizing its relevance to control systems and robotics, and it highlights future prospects by identifying key research challenges and promising avenues for advancing BO in the field. This includes addressing a significant gap in the BO landscape: the lack of standardized benchmark problems specifically for control-related applications. To foster future research and ensure rigorous evaluation, we start an effort towards a lightweight benchmark suite for control engineering and robotics. We also present metrics and best practices to facilitate direct comparisons between new BO algorithms and established state-of-the-art methods.},
+  abbr      = {preprint},
+  bibtex_show = {true},
+  eprint    = {2609.09403},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.RO},
+  arxiv     = {2609.09403},
+  url       = {https://arxiv.org/abs/2609.09403}
 }

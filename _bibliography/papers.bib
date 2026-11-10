@@ -291,15 +291,22 @@
   bibtex_show  = {true},
 }
 
-@article{hose2025finetuning,
-  title       = {Fine-Tuning of Neural Network Approximate {MPC} without Retraining via Bayesian Optimization},
-  author      = {Henrik Hose and Paul Brunzema and Alexander {von Rohr} and Alexander Gr{\"a}fe and Angela P. Schoellig and Sebastian Trimpe},
-  journal     = {arXiv},
-  year        = {2025},
+@inproceedings{hose2025finetuning,
+  title       = {Fine-Tuning of Neural Network Approximate {MPC} Without Retraining via Bayesian Optimization},
+  author      = {Hose, Henrik and Brunzema, Paul and {von Rohr}, Alexander and Gr{\"a}fe, Alexander and Schoellig, Angela P. and Trimpe, Sebastian},
+  editor      = {Shin, Hyo-Sang and Howard, Mathew and Lee, Hae-In and Park, Daehyung},
+  booktitle   = {Robot Intelligence Technology and Applications 10},
+  year        = {2026},
+  publisher   = {Springer Nature Switzerland},
+  pages       = {66--80},
+  isbn        = {978-3-032-23010-2},
+  doi         = {10.1007/978-3-032-23010-2_6},
   abstract    = {Approximate model-predictive control (AMPC) aims to imitate an MPC's behavior with a neural network, removing the need to solve an expensive optimization problem at runtime. However, during deployment, the parameters of the underlying MPC must usually be fine-tuned. This often renders AMPC impractical as it requires repeatedly generating a new dataset and retraining the neural network. Recent work addresses this problem by adapting AMPC without retraining using approximated sensitivities of the MPC's optimization problem. Currently, this adaption must be done by hand, which is labor-intensive and can be unintuitive for high-dimensional systems. To solve this issue, we propose using Bayesian optimization to tune the parameters of AMPC policies based on experimental data. By combining model-based control with direct and local learning, our approach achieves superior performance to nominal AMPC on hardware, with minimal experimentation. This allows automatic and data-efficient adaptation of AMPC to new system instances and fine-tuning to cost functions that are difficult to directly implement in MPC. We demonstrate the proposed method in hardware experiments for the swing-up maneuver on an inverted cartpole and yaw control of an under-actuated balancing unicycle robot, a challenging control problem.},
-  abbr        = {preprint},
+  abbr        = {RITA},
   arxiv       = {2512.14350},
+  html        = {https://doi.org/10.1007/978-3-032-23010-2_6},
   bibtex_show = {true},
+  note        = {Best Student Paper Award},
 }
 
 @inproceedings{hausdorfer2026learning,
